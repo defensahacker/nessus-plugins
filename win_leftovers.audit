@@ -1,0 +1,8 @@
+<custom_item>
+type: AUDIT_POWERSHELL
+description: "Get list of all temporary and leftovers files in the system"
+value_type: POLICY_TEXT
+value_data: ""
+powershell_args  : 'Get-ChildItem "C:\\Temp"'
+only_show_cmd_output : YES
+</item>

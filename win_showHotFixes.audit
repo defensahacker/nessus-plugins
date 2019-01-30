@@ -1,0 +1,8 @@
+<custom_item>
+type: AUDIT_POWERSHELL
+description: "Show Installed Hotfix"
+value_type: POLICY_TEXT
+value_data: ""
+powershell_args: "get-hotfix | where-object {$_.hotfixid -ne 'File 1'} | select Description,HotFixID,InstalledBy | format-list"
+only_show_cmd_output: YES
+</custom_item>

@@ -1,0 +1,10 @@
+<custom_item>
+type: AUDIT_POWERSHELL
+description: "List local user account info"
+value_type: POLICY_TEXT
+value_data: ""
+powershell_args:
+'DQAKACIAMQAwAC4AMAAuADAAIgAgAHwAIABXAHIAaQB0AGUALQBPAHUAdABwAHUAdAA7AA0ACgA='
+ps_encoded_args: YES
+only_show_cmd_output: YES
+</custom_item>
